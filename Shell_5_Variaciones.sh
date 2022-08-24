@@ -8,7 +8,7 @@ factorialdenominador=1
 while [ $n -gt 1 ]
 	do
 		let factorialnumerador=$factorialnumerador*$n
-		let n=$n-1
+		let n=($n-1)
 	done
 
 while [ $(resta) -gt 1 ]
