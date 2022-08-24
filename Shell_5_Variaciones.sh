@@ -1,7 +1,7 @@
 
 n=20
 r=3
-resta=n-r
+resta=$(($n-$r))
 factorialnumerador=1
 factorialdenominador=1
 
