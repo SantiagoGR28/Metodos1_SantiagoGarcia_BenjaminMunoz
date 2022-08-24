@@ -5,7 +5,7 @@ function checkvalue(){
   		pass=1
   	else
   		echo "vuelve a intentar"
-  fi
+  	fi
 }
 
 while [ $pass -eq 0 ]
